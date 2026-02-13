@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Privacy Policy - ALEIXDMX</title>
+    <title>Privacy Policy - SCPFR</title>
     <style>
         * {
             margin: 0;
@@ -124,7 +124,6 @@
             background-color: #2980b9;
         }
         
-        /* Mobile-specific styles */
         @media (max-width: 768px) {
             body {
                 padding: 15px;
@@ -165,12 +164,12 @@
 <body>
     <div class="container">
         <header>
-            <h1>Privacy Policy for <span class="app-name">ALEIXDMX</span></h1>
+            <h1>Privacy Policy for <span class="app-name">SCPFR</span></h1>
             <p class="date">Effective Date: February 1, 2026</p>
         </header>
         
         <section>
-            <p>This Privacy Policy describes how ALEIXDMX ("we", "our", or "us") collects, uses, and shares your personal information when you use our application. We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner.</p>
+            <p>This Privacy Policy describes how SCPFR ("we", "our", or "us") collects, uses, and shares your personal information when you use our application. We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner.</p>
             
             <h2>1. Information We Collect</h2>
             <p>We collect information to provide better services to our users. The types of information we collect include:</p>
@@ -231,29 +230,25 @@
         </section>
         
         <div class="footer">
-            <p>&copy; 2026 ALEIXDMX. All rights reserved.</p>
-            <p>This Privacy Policy applies to the ALEIXDMX application.</p>
+            <p>&copy; 2026 SCPFR. All rights reserved.</p>
+            <p>This Privacy Policy applies to the SCPFR application.</p>
             <a href="javascript:history.back()" class="back-button">Back to App</a>
         </div>
     </div>
     
     <script>
-        // Simple script for back button functionality
         document.addEventListener('DOMContentLoaded', function() {
-            // Add click event for the back button
             const backButton = document.querySelector('.back-button');
             if (backButton) {
                 backButton.addEventListener('click', function() {
                     if (document.referrer && document.referrer.indexOf(window.location.host) !== -1) {
                         window.history.back();
                     } else {
-                        // If coming from outside, redirect to a sensible place
-                        window.location.href = 'https://example.com'; // Replace with your app's URL
+                        window.location.href = 'https://example.com';
                     }
                 });
             }
             
-            // Update the year automatically
             const yearElement = document.querySelector('.footer p');
             if (yearElement && yearElement.textContent.includes('2026')) {
                 const currentYear = new Date().getFullYear();
